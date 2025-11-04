@@ -1,3 +1,5 @@
+<!-- Rules for windows share folder events -->
+
 <var name="CriticalFolders">H:\\\\Alchem_d|C:\\\\Critical_Folder2</var>
 
 <group name="windows, windows_security,">
@@ -20,4 +22,4 @@
      <description>$(win.eventdata.subjectUserName) accessed $(win.eventdata.objectName) folder out of office hours.</description>    
      <options>no_full_log</options>
   </rule>
-  <group">
+  </group>
